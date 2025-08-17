@@ -1,0 +1,68 @@
+🏠 **California Housing - Modelado y Análisis Predictivo**
+Este proyecto tiene como objetivo predecir el valor medio de las viviendas en California utilizando técnicas de ciencia de datos y aprendizaje automático.
+
+Se aplicaron procesos de preparación de datos, selección de variables, entrenamiento de modelos de clasificación/regresión y evaluación de resultados con métricas de desempeño, priorizando la interpretación de la importancia de las variables.
+
+📌 **Objetivos del proyecto**
+* Preparación de los datos: tratamiento de valores faltantes, codificación y normalización de variables.
+
+* Análisis exploratorio y de correlación: identificación de relaciones entre variables y selección de características relevantes.
+
+* Entrenamiento de modelos: implementación de al menos dos modelos de predicción.
+
+* Evaluación del rendimiento: comparación de modelos mediante métricas estadísticas.
+
+* Interpretación de resultados: análisis de la importancia de las variables y su impacto en el valor medio de las viviendas.
+
+* Conclusión estratégica: identificación de los factores más influyentes para la predicción.
+
+⚙️ **Tecnologías utilizadas**
+* Python 3.x
+
+* Pandas, NumPy
+
+* Scikit-learn
+
+* Matplotlib, Seaborn
+
+* Jupyter Notebook
+
+📊 **Modelos aplicados**
+* Regresión Lineal
+
+* Random Forest Regressor
+
+📈 **Resultados principales**
+* El Random Forest Regressor fue el modelo con mejor desempeño, alcanzando mayor R² y menor MSE frente a la Regresión Lineal.
+
+* La variable median_income (ingreso medio) resultó ser la más influyente en la predicción del valor medio de las viviendas.
+
+* Otras variables relevantes incluyen:
+
+  * Latitud (latitude)
+
+  * Longitud (longitude)
+
+  * Población por hogar (population_per_household)
+
+* La variable bedrooms_per_room (proporción de dormitorios por habitación) también mostró relevancia como característica de ingeniería.
+
+🧭 **Conclusiones estratégicas**
+* El ingreso medio de los residentes es el principal predictor del valor de una propiedad.
+
+* La ubicación geográfica (latitud y longitud) y las características del hogar complementan significativamente el análisis.
+
+Este hallazgo tiene implicaciones en:
+
+  * Planificación urbana
+
+  * Inversión inmobiliaria
+
+  * Formulación de políticas públicas
+
+En conclusión, para comprender y predecir el valor de las viviendas en California, es indispensable considerar tanto el nivel socioeconómico de la zona como su ubicación geográfica y composición habitacional.
+
+👩‍💻 **Autor**
+**Sandra Patricia Carrillo Velosa**
+Especialista en Seguridad Informática | Ciencia de Datos | Análisis Forense
+
